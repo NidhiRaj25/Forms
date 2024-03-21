@@ -1,0 +1,229 @@
+.forms{
+    background-color: #F4F4F9 !important;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.section{
+    margin: auto;
+    width: 90%;
+}
+@media only screen and (min-width: 600px) {
+    /* For mobile phones: */
+    [class*="section"] {
+      width: 90%;
+    }
+  }
+
+@media only screen and (min-width: 992px) {
+/* For mobile phones: */
+[class*="section"] {
+    width: 50%;
+}
+}
+
+.forms_top {
+    background-color: white;
+    border-top: 8px solid rgb(103,58,183);
+    border-radius: 8px;
+    padding: 30px 25px;
+    text-transform: capitalize;
+}
+
+.forms_name{
+    box-sizing: border-box;
+    font-size: 32px;
+    font-weight: 400;
+    /* line-height: 40px; */
+    line-height: 135%;
+    width: 100% ; 
+    border: none !important ;
+    outline: none !important;
+    border-bottom: 1px solid #F4F4F9;
+    color: black;
+    height: 35px;
+}
+
+.forms_description{
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    line-height: 135%;
+    width: 100% ; 
+    border: none !important ;
+    outline: none !important;
+    border-bottom: 1px solid #F4F4F9;
+    color: black;
+    height: 35px;
+}
+
+.text1{
+    /* background-color: bisque; */
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 24px;
+    padding-bottom: 8px;
+    margin-left: 8px !important;
+}
+
+.text2{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: #202124;
+}
+
+.formControl{
+    /* background-color: bisque; */
+    margin-left: 5px !important;
+    margin-bottom: 5px;
+}
+
+.questions_boxes{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.add_question{
+    /* background-color: green; */
+    /* background-color: white; */
+    border-radius: 8px;
+    padding: 25px 22px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 93%;
+    margin-left: 10px;
+}
+
+.add_question_top{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%
+}
+
+.question{
+    /* background-color: yellow; */
+    box-sizing: border-box;
+    /* margin-top: 50px; */
+    font-size: 15px;
+    font-weight: 400;
+    flex: 1;
+    line-height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    color: black;
+    height: 40px;
+    margin-right: 10px;
+    line-height: 10px;
+    padding: 10px;
+}
+
+.question:focus{
+    border-bottom: solid rgb(103,58,183);
+    background-color: #F4F4F9;
+}
+
+.select{
+    height: 40px;
+    width: auto;
+    /* width: 250px; */
+    border: 0.5px solid;
+    padding: 5px 15px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1.5px solid #F4F4F9;
+    border-radius: 3px;
+    background: transparent;
+}
+
+
+.menuitem{
+    color: rgba(118,118,118,0.3);
+}
+
+.question_body {
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+
+}
+
+.text_input{
+    /* background-color: aqua; */
+    outline: none;
+    border:none;
+    height: 40px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    color: #202124;
+    margin-right: 300px;
+}
+
+.text_input:focus {
+    border-bottom: 1.5px solid rgb(103,58,183);
+}
+
+.cropItem{
+    /* margin-left: 150px !important; */
+    margin-right: 0;
+}
+.Answer{
+    color: white !important;
+    /* color: rgb(25, 65, 226)!important; */
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    background-color:rgb(25, 65, 226) !important;
+    margin-left: 5px !important;
+}
+
+.edit{
+    background-color: #F4F4F9;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+    margin-top: 10px;
+    padding: 1px;
+    border-radius: 3px;
+    height: 180px;
+    width: 35px;
+}
+
+.button1{
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+.button2{
+    color: black;
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.icon_edit{
+    color: #5f6368;
+    padding: 10px 5px;
+}
+
+
+.addOptionButton{
+    color: white !important;
+    font-size: 13px !important;
+    font-weight: 600 !important ;
+    background-color:rgb(25, 65, 226) !important;
+    margin-left: 120px !important;
+    
+}

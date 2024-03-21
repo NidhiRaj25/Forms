@@ -1,0 +1,16 @@
+.paper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-grow: 1 !important;
+}
+
+.tabs{
+    height: 10;
+}
+
+.tab{
+    font-size: 18px !important;
+    color: black !important;
+    height: 10 !important;
+    font-weight: 600 !important;
+}
